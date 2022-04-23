@@ -203,6 +203,16 @@ section .title::after {
   .contact .contact-content .left .icons {
     margin: 10px 0;
   }
+
+  .contact .contact-content .right a{
+    width: 100px;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: crimson;
+}
   .contact .contact-content .row {
     display: flex;
     height: 65px;
