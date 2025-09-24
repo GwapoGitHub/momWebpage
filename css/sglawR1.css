@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@300;400;500;700;900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 100px;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+  background-color: black;
+}
+
+.main-content {
+  width: 100dvw;
+  height: 50dvh;
+  min-height: 500px;
+  padding: 10px;
+  background: #f5f0e5;
+
+  .main_1 {
+    font-size: 1.25rem;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 200;
+    height: 10%;
+    text-align: center;
+    align-content: center;
+  }
+
+  .main_2 {
+    height: 75%;
+    min-height: auto;
+    text-align: center;
+    align-content: center;
+  }
+
+  .main_3 {
+    height: 15%;
+    text-align: center;
+    align-content: center;
+  }
+
+  .h1_large {
+    font-size: 90px;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 300;
+    text-align: center;
+    margin: auto auto;
+    padding: 0px;
+    color: #381c10;
+    /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
+  }
+
+  .button1 {
+    font-size: 1rem;
+    font-family: 'Rethink Sans', sans-serif;
+    font-weight: 100;
+    text-align: center;
+    margin: auto auto;
+    padding: 5px 20px;
+    border-color: #381c10;
+    border-width: 1px;
+    background-color: #f5f0e5;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #381c10;
+      color: #f5f0e5;
+      transition: background-color 0.3s ease;
+    }
+  }
+}
+
+.corevalue_area {
+  width: 100dvw;
+  height: auto;
+  min-height: 50dvh;
+  padding: 5 px;
+  align-content: center;
+}
+
+.h2_large {
+  font-size: 2.5rem;
+  font-family: 'Gowun Batang', 'rethink sans', sans-serif;
+  font-weight: 100;
+  text-align: center;
+  margin: auto auto;
+  padding: 10px;
+  color: #f5f0e5;
+  border-color: red;
+}
+
+.core_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100dvw;
+  padding: 30px;
+  height: auto;
+  gap: 30px;
+
+
+  
+
+  &>.corebox {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    padding: 10px;
+
+    &>h3 {
+      font-family: 'Cormorant Garamond', sans-serif;
+      font-weight: 200;
+      font-size: 1.5rem;
+      text-align: center;
+      color: #f5f0e5;
+    }
+
+    &>p {
+      font-size: small;
+      font-family: 'rethink sans', sans-serif;
+      text-align: justify;
+      color: #f5f0e5;
+      padding: 5px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .core_content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.practice_content {
+  width: 100dvw;
+  height: 100dvh;
+  padding: 10px;
+  background: linear-gradient(to bottom, #f5f0e5 0%, #f5f0e5 70%, #381c10 70%, #381c10 100%);
+}
+
+.parent-div {
+  height: 300px;
+  /* Or any other fixed height, or a percentage of its own parent's height */
+  border: 2px solid blue;
+  /* For visibility */
+
+  .child-div1 {
+    height: 10%;
+    /* Sets the height to 50% of the parent-div's height */
+    background-color: lightslategray;
+    /* For visibility */
+  }
+
+  .child-div2 {
+    height: 60%;
+    /* Sets the height to 50% of the parent-div's height */
+    background-color: lightblue;
+    /* For visibility */
+  }
+
+  .child-div3 {
+    height: 30%;
+    /* Sets the height to 50% of the parent-div's height */
+    background-color: lightgoldenrodyellow;
+    /* For visibility */
+  }
+
+}
+
+
+
+
+.bordgreen {
+  border: 2px solid green;
+}
+
+.bordred {
+  border: 2px solid red;
+}
+
+.bordblue {
+  border: 2px solid blue;
+}
+
+.bgbrown {
+  background-color: #381c10;
+}
+
+.bgbeige {
+  background-color: #f5f0e5;
+}
+
+.bggreen {
+  background-color: greenyellow;
+}
+
+.bggray {
+  background-color: lightgray;
+}
+
+.h3_core {
+  font-size: 1.5rem;
+  font-family: 'Cormorant Garamond', sans-serif;
+  color: blanchedalmond;
+  text-align: start;
+}
+
+.p_core {
+  font-size: 0.75rem;
+  font-family: 'Gowun Batang', 'rethink sans', sans-serif;
+  color: blanchedalmond;
+  text-align: start;
+  padding: 2px;
+}
+
+.col_core {
+  margin: 2px;
+  padding: 5px;
+}
