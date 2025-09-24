@@ -4,15 +4,54 @@
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 100px;
+  background: #f5f0e5;
 }
 
 body {
   margin: 0px;
   padding: 0px;
   overflow-x: hidden;
-  background-color: black;
+  background: #f5f0e5;
 }
+
+.topnav1{
+  width: 100dvw;
+  height: auto;
+  min-height: 30px;
+  padding: 0px 20px;
+  background-color: #f5f0e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .navlogo {
+    font-size: 1rem;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 300;
+    color: #381c10;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+  }
+
+  .logo{
+    height: 40px;
+    width: auto; 
+   }
+
+   .logo-text{
+    font-size: 1rem;
+    font-family: 'Cormorant Garamond', sans-serif;
+    font-weight: 300;
+    color: #381c10;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+   }
+}
+
 
 .main-content {
   width: 100dvw;
