@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gowun+batang&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@300;400;500;700;900&display=swap');
+
+
+body {
+    width: 100dvw;
+    background-color: red;
+    padding: 0px;
+    margin: 0px;
+}
+
+.topnav {
+    width: 100dvw;
+    height: auto;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f5f0e5;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    .navlogo {
+        font-size: 1rem;
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-weight: 500;
+        color: #381c10;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .logo-text {
+        font-size: 1rem;
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-weight: 300;
+        color: #381c10;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+    }
+
+    .active {
+        font-size: 1rem;
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-weight: 300;
+        text-decoration: none;
+        padding: 5px 5px;
+        border-radius: 5px;
+        background-color: #f5f0e5;
+        color: #381c10;
+
+        &:hover {
+            background-color: #381c10;
+            color: #f5f0e5;
+            transition: background-color 0.3s ease;
+        }
+    }
+
+}
+
+.main-content {
+    width: 100dvw;
+    background: #f5f0e5;
+    padding: 20px;
+
+    .main_1 {
+        font-size: 1.25rem;
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-weight: 200;
+        text-align: center;
+        align-content: center;
+    }
+
+    .main_2 {
+        height: 75%;
+        text-align: center;
+        align-content: center;
+        padding: 30px 0px;
+    }
+
+    .main_3 {
+        height: 15%;
+        text-align: center;
+        align-content: center;
+    }
+
+    .h1_large {
+        font-size: 90px;
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-weight: 300;
+        text-align: center;
+        margin: auto auto;
+        padding: 0px;
+        color: #381c10;
+        /* text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); */
+    }
+
+    .button1 {
+        font-size: 1rem;
+        font-family: 'Rethink Sans', sans-serif;
+        font-weight: 100;
+        text-align: center;
+        margin: auto auto;
+        padding: 5px 20px;
+        border-color: #381c10;
+        border-width: 1px;
+        background-color: #f5f0e5;
+        border-radius: 5px;
+        cursor: pointer;
+
+        &:hover {
+            background-color: #381c10;
+            color: #f5f0e5;
+            transition: background-color 0.3s ease;
+        }
+    }
+}
+
+.corevalue_area {
+    width: 100dvw;
+    height: fit-content;
+    align-content: center;
+    background-color: #381c10;
+    color: #f5f0e5;
+    padding: 20px;
+
+    .h2_large {
+        font-size: 3rem;
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-style: normal;
+        font-weight: 100;
+        text-align: center;
+        color: #f5f0e5;
+    }
+
+    .core_content {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 20px;
+        align-content: center;
+        gap: 30px;
+
+        .corebox {
+            padding: 5px;
+            border-radius: 10px;
+            border: 2px solid rgba(255, 255, 255, 0.2);
+        }
+
+        .coredivider {
+            border: 1px solid #f5f0e5;
+            height: auto;
+        }
+
+        h3 {
+            font-family: 'Cormorant Garamond', sans-serif;
+            font-weight: 200;
+            font-size: 1.5rem;
+            text-align: center;
+            color: #f5f0e5;
+        }
+
+        p {
+            font-size: .60rem;
+            font-family: 'rethink sans', sans-serif;
+            text-align: justify;
+            color: #f5f0e5;
+            padding: 2px;
+        }
+    }
+
+
+}
+
+
+/* 
+@media (max-width: 768px) {
+    .core_content {
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        padding: 20px;
+        height: auto;
+        align-content: center;
+        gap: 30px;
+    }
+} */
