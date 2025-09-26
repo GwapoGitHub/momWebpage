@@ -5,7 +5,6 @@
 
 body {
     width: 100dvw;
-    background-color: red;
     padding: 0px;
     margin: 0px;
 }
@@ -358,6 +357,93 @@ body {
     }
 
 }
+
+.ourClient {
+    width: 100dvw;
+    height: max(fit-content, 300px);
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #381c10;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+
+    .clientbox {
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        text-align: center;
+        align-content: center;
+
+        .h2_large {
+            font-size: 3rem;
+            font-family: 'Cormorant Garamond', sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            text-align: center;
+            color: #f5f0e5;
+        }
+
+    }
+
+    .slideshow-container {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+        padding: 5px;
+
+        .client-slide {
+            width: 100%;
+            margin: auto;
+
+            .client-inner {
+
+                .client-item {
+                    width: 100%;
+                    height: 300px;
+                    padding: 10px;
+                    align-content: center;
+
+                    blockquote {
+                        width: 80%;
+                        height: auto;
+                        margin: auto;
+                        padding: 10px;
+                        font-size: 0.70rem;
+                        font-family: 'Rethink Sans', sans-serif;
+                        font-weight: 300;
+                        font-style: italic;
+                        text-align: justify;
+                        color: #f5f0e5;
+                        padding: 10px;
+                    }
+
+                    .name {
+                        width: 80%;
+                        margin: auto;
+                        font-size: 0.75rem;
+                        font-family: 'Rethink Sans', sans-serif;
+                        font-weight: 500;
+                        text-align: left;
+                        color: #f5f0e5;
+                        padding: 10px;
+                    }
+
+
+                }
+            }
+
+        }
+    }
+
+}
+
+
+
+
+
 
 
 /* 
