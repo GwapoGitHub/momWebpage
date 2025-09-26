@@ -290,7 +290,7 @@ body {
 
 .practice_area {
     width: 100dvw;
-    height: 50dvh;
+    height: fit-content;
     padding: 10px;
     align-content: center;
     align-items: center;
@@ -323,15 +323,17 @@ body {
             border: 1px solid #381c10;
             border-radius: 10px;
             align-items: center;
+            text-align: center;
             background-color: #f5f0e5;
             margin: auto auto;
 
-            .card-img {
-                width: 200px;
+            .practice_img {
+                width: 180px;
                 height: 100px;
                 filter: grayscale(100%);
                 align-self: center;
                 margin: auto auto;
+                background-color: red;
             }
 
             h2 {
