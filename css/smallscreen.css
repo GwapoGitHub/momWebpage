@@ -277,6 +277,13 @@ body {
     }
 }
 
+.practice_area{
+  width: 100dvw;
+  height: 50dvh;
+  padding: 10px;
+  background: linear-gradient(to bottom, #f5f0e5 0%, #f5f0e5 70%, #381c10 70%, #381c10 100%);   
+}
+
 
 
 

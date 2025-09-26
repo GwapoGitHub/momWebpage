@@ -288,6 +288,75 @@ body {
     }
 }
 
+.practice_area {
+    width: 100dvw;
+    height: 50dvh;
+    padding: 10px;
+    align-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #f5f0e5 0%, #f5f0e5 70%, #381c10 70%, #381c10 100%);
+
+    .h3_large {
+        font-size: 2rem;
+        font-family: 'Cormorant Garamond', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        text-align: center;
+        color: #381c10;
+    }
+
+    .practice_content {
+        margin: 10px;
+        padding: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-content: center;
+        align-self: center;
+        gap: 20px;
+
+        .immibox,
+        .taxbox {
+            margin: auto;
+            width: 80%;
+            max-width: 400px;
+            padding: 50px;
+            border: 1px solid #381c10;
+            border-radius: 10px;
+            align-items: center;
+            background-color: #f5f0e5;
+            margin: auto auto;
+
+            .card-img {
+                width: 200px;
+                height: 100px;
+                filter: grayscale(100%);
+                align-self: center;
+                margin: auto auto;
+            }
+
+            h2 {
+                font-family: 'Cormorant Garamond', sans-serif;
+                font-weight: 500;
+                font-size: 1.5rem;
+                text-align: center;
+                color: #381c10;
+                padding: 20px 0px 0px 0px;
+            }
+
+            p {
+                font-size: .70rem;
+                font-family: 'rethink sans', sans-serif;
+                font-weight: 300;
+                text-align: justify;
+                color: #381c10;
+            }
+        }
+
+
+    }
+
+}
+
 
 /* 
 @media (max-width: 768px) {
