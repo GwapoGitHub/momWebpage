@@ -522,20 +522,67 @@ body {
     }
 }
 
-.footer {
+.sgalawfooter {
     width: 100dvw;
-    height: min(250px, fit-content);
+    height: auto;
     padding: 10px;
     background-color: #381c10;
-    display: flex;
-    justify-content: center;
+    color: #f5f0e5;
     align-items: center;
+    text-align: center;
 
     p {
         font-size: 0.75rem;
         font-family: 'Rethink Sans', sans-serif;
         font-weight: 300;
         color: #f5f0e5;
+        padding: 2px;
+        margin: 2px;
+    }
+
+    .footer_center {
+        font-size: 0.75rem;
+        font-family: 'Rethink Sans', sans-serif;
+        font-weight: 300;
+        color: #f5f0e5;
+        padding: 5px;
         text-align: center;
+
+        img{
+            color: #f5f0e5;
+        }
+    }
+
+    .footer_content {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        text-align: center;
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+
+        .footer_left,
+        .footer_right {
+            font-size: 0.75rem;
+            font-family: 'Rethink Sans', sans-serif;
+            font-weight: 300;
+            color: #f5f0e5;
+            padding: 5px;
+        }
+
+        .footer_left {
+            text-align: left;
+        }
+
+        .footer_center {
+            text-align: center;
+        }
+
+        .footer_right {
+            text-align: right;
+        }
     }
 }
